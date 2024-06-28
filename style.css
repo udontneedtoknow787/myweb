@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: block;
+    overflow: hidden;
+    background-color: rgb(3, 39, 87);
+}
+/* body,html{
+    height: 100%;
+} */
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#Home{
+    /* background-color: red; */
+    display: inline-block;
+    float: inline-start;
+    margin: 1rem;
+    padding: 0.5rem;
+    /* border: 2px solid blue; */
+}
+#Home:active{
+    background-color: black;
+    color: white;
+}
+ul.navbar{
+    display: inline-block;
+    float: inline-end;
+    /* background-color:whitesmoke; */
+    margin-top: 2rem;
+}
+.navbar li{
+    display: inline-block;    
+}
+.navbar li a{
+    text-decoration: none;
+    /* background-color: rgb(126, 126, 236); */
+    padding: 0.5rem;
+    color: white;
+    
+}.navbar li a:hover {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: 2px ridge white;
+}
+.navbar li a:active {
+    background-color: white;
+    color: black;
+}
+
+/*  contents */
+
+/* about */
+section{
+    display: block;
+    min-height: 100vh;
+}
+#About_Me{
+    
+    /* background-color: navy; */
+    text-align: center;
+    background-image: url(image/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#About_Me h1{
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-inline: auto;
+    max-width: 50%;
+    font-size: 7vw;
+    /* border: 2px solid red; */
+}
+#About_Me p{
+    font-size: large;
+    display: block;
+    margin-inline: auto;
+    max-width: 40%;
+    position: relative;
+    /* border: 2px solid black; */
+}
+/* experience */
+#Experience{
+    
+    background-image: url(image/dualmonitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Experience h1{
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px wheat;
+}
+/* projects */
+#My_Projects {
+    background-image: url(image/cssbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#My_Projects h1{
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px wheat;
+}
+
+
+/* contact */
+#Contact_Me{
+    background-image: url(image/letsmeet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Contact_Me h1{
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px wheat;
+}
